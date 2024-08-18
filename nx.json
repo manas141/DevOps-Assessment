@@ -23,18 +23,12 @@
         "previewTargetName": "preview"
       }
     },
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    },
+    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } },
     {
       "plugin": "@nx/jest/plugin",
-      "options": {
-        "targetName": "test"
-      },
+      "options": { "targetName": "test" },
       "exclude": ["apps/pt-notification-service-e2e/**/*"]
     }
-  ]
+  ],
+  "nxCloudAccessToken": "YmNhNmM4OTktZDQ2ZC00OTkyLWFkNjktYWM1YTBkZTY4YTgyfHJlYWQtd3JpdGU="
 }
